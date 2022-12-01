@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+  <title>Login</title>
+  <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+
+{% endblock %}
+
+{% block body %}
+  <div class="container">
+    <div class="container-login">
+      <div class="wrap-login">
+        <form class="login-form">
+          <span class="login-form-tittle">
+            Faça o login
+          </span>
+
+          <div class="wrap-input margin-top-35 margin-bottom-35">
+            <input class="input-form" type="email" name="email" autocomplete="off">
+            <span class="focus-input-form" data-placeholder="E-mail"></span>
+          </div>
+
+          <div class="wrap-input margin-bottom-35">
+            <input class="input-form" type="password" name="password">
+            <span class="focus-input-form" data-placeholder="Senha"></span>
+          </div>
+
+          <div class="container-login-form-btn">
+            <button class="login-form-btn">Login</button>
+          </div>
+
+          <ul class="login-utils">
+            <li class="margin-top-8 margin-bottom-8">
+              <span class="text1">
+                Esqueceu a
+              </span>
+              <a href="#" class="text2">
+                senha?
+              </a>
+            </li>
+            <li>
+              <span class="text1">
+                Não tem conta?
+              </span>
+              <a href="#" class="text2">
+                Criar!
+              </a>
+            </li>
+            <li>
+              <span class="text1">
+                Voltar para
+              </span>
+              <a href="/" class="text2">
+                página principal
+              </a>
+            </li>
+          </ul>
+
+        </form>
+      </div>
+      <img src="../static/img/login.png" alt="login" width="300" height="300" class="margin-left-50">
+    </div>
+  </div>
+
+  <script src="../static/js/form.js"></script>
+{% endblock %}

@@ -1,0 +1,50 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+  <title>JavaScript</title>
+  <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+
+{% endblock %}
+
+
+{% block body %}
+  <div class="container">
+    <span class="home-tittle margin-top-35">
+      Front End
+    </span>
+    <span class="home-subtittle margin-top-8">
+      Páginas feitas com css e javascript
+    </span>
+    <br>
+    <p style="color:#ffffff; display: block; width: 60%; margin-left: 20%;">
+      Este site contém páginas que foram feitas em python, usando css e javascript
+      para estudo. Todas linhas estão bem comentadas com fins didáticos, façam bom uso!
+
+    </p>
+    <br>
+      <div class="center-text">
+        <a href="login/" class="text2" >
+          <h3 style="text-align: center;">Página de login</h3>
+        </a>
+        <p style="color:#ffffff; display: block; width: 60%; margin-left: 20%;">
+          Uma bela página de login com recursos css e javascript. Sinta-se a vontade para estudar
+          e usa-la em seus projetos!
+        </p>
+      </div>
+    <div>
+      <br>
+      <div class="center-text">
+        <a href="imc/" class="text2" >
+          <h3 style="text-align: center;">Página calculadora IMC</h3>
+        </a>
+        <p style="color:#ffffff; display: block; width: 60%; margin-left: 20%;">
+          Calculadora IMC foi feita com recursos mais apronfundados de javascript, calcule seu IMC
+          estude muito e queime calorias aprendendo css e js!
+        </p>
+
+
+    </div>
+  </div>
+
+{% endblock %}
