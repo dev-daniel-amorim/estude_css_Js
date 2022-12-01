@@ -1,4 +1,4 @@
-# Estude HTML, CSS e Javascript
+# (python) Estude HTML, CSS e Javascript
  Páginas feitas em Phyton com Django utilizando recursos CSS e JS para usar em projetos ou didática.
 
 # Índice 
@@ -9,7 +9,7 @@
 * [Calculadora IMC](#Calculadora-IMC)
 
 # Descrição do projeto
- O intuito deste material é criar paginas com recursos HTML, CSS e Javascript para 
+ O intuito deste material é criar paginas Django com recursos HTML, CSS e Javascript para 
  didática ou uso em projetos. Sintam-se a vontade para acrescentar novos recursos e
  adicionar seu nome no campo "desenvolvedor".
 
