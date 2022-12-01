@@ -6,7 +6,7 @@
 * [Descrição do Projeto](#descrição-do-projeto)
 * [Desenvolvedor](#desenvolvedor)
 * [Página login](#página-login)
-* [Tutorial Deploy](#tutorial-deploy)
+* [Calculadora IMC](#Calculadora-IMC)
 
 # Descrição do projeto
  O intuito deste material é criar paginas com recursos HTML, CSS e Javascript para 
@@ -31,5 +31,12 @@ Amante de tecnologias e desenvolvimento Python.<br>
 Página de login para uso em projetos!
 
 https://user-images.githubusercontent.com/115194365/205161554-679bea6f-bfab-461a-b312-f0337e11c7c5.mp4
+
+# Calculadora IMC
+
+Essa calculadora funcional conta com recursos (nível médio) em js, calcula seu IMC e gaste caloria estudando os recursos CSS e JS.
+
+https://user-images.githubusercontent.com/115194365/205162357-f02f7d79-41d0-4439-b92b-67cfeb78a78f.mp4
+
 
 
