@@ -297,3 +297,11 @@ body {
     line-height: 1.2;
     text-align: center;
 }
+
+.container-geral {
+    max-width: 600px;
+    margin: 2rem auto 0; /* 3 em cima, lados auto zero */
+    background-color: #000;
+    padding: 1.5rem;
+    border-radius: 15px;
+}
