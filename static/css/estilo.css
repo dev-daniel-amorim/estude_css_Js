@@ -289,19 +289,12 @@ body {
     text-align: center;
 }
 
-.home-subtittle {
-    display: block; /*transforma em bloco pra poder alinhar*/
-    font-family: Poppins-Bold;
-    font-size: 20px;
-    color: var(--white-color);
-    line-height: 1.2;
-    text-align: center;
-}
-
 .container-geral {
     max-width: 600px;
-    margin: 2rem auto 0; /* 3 em cima, lados auto zero */
+    margin: 2rem auto 3rem ; /* 3 em cima, lados auto zero */
+    margin-bottom: 4rem;
     background-color: #000;
     padding: 1.5rem;
     border-radius: 15px;
+    opacity: 0.7;
 }
